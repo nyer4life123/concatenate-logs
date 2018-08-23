@@ -22,7 +22,7 @@ The bash script is saved as firstname.lastname.sh. The script should take 2 argu
 ## Installation / Usage
 
 Shell Script Usage:
-1. ./abdul.sofiz.sh /path/to/logs/directory /path/to/output/directory
+1. sh abdul.sofiz.sh /path/to/logs/directory /path/to/output/directory
 
 ## Verify the script worked
 
