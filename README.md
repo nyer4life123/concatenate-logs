@@ -1,6 +1,6 @@
 # concatenate-logs
 
-This script will concatenate a set of files, group them by IP address and sort by time resulting in a single file.
+This script will take two arguments, concatenate a set of files, group them by IP address and sort by time resulting in a single file.
 
 ## Getting Started
  
@@ -14,21 +14,25 @@ The bash script is saved as firstname.lastname.sh. The script should take 2 argu
 
 ## Prerequisites
 
-Confirm log file directory exists and files are present
-
-confirm output directory exists
-
-clone repository
+1. Confirm log file directory exists and files are present
+2. confirm output directory exists
+3. account that has proper permissions on the logs and output directories
+4. clone repository
 
 ## Installation / Usage
 
 Shell Script Usage:
-./abdul.sofiz.sh /path/to/logs/directory /path/to/output/directory
+1. ./abdul.sofiz.sh /path/to/logs/directory /path/to/output/directory
 
 ## Verify the script worked
 
 cat /path/to/output/directory/hwOutputFile.log to verify
 
 At this point the hwOutputFile.log file should be a single file containing all the lines from the previous files grouped by IP address and sorted by time.
+
+## Return error/return codes
+1. Usage Error = (wrong or missing parameters passed to the script)
+2. missing log directory (log directory doesn't exist)
+3. missing output directory (outout directory doesn't exist)
 
 
