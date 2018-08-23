@@ -20,9 +20,15 @@ confirm output directory exists
 
 clone repository
 
-## Installation
+## Installation / Usage
 
 Shell Script Usage:
 ./abdul.sofiz.sh /path/to/logs/directory /path/to/output/directory
 
+## Verify the script worked
+
 cat /path/to/output/directory/hwOutputFile.log to verify
+
+At this point the hwOutputFile.log file should be a single file containing all the lines from the previous files grouped by IP address and sorted by time.
+
+
