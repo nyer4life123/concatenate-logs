@@ -16,7 +16,7 @@ The bash script is saved as firstname.lastname.sh. The script should take 2 argu
 
 1. Confirm log file directory exists and files are present
 2. confirm output directory exists
-3. account that has proper permissions on the logs and output directories
+3. account that has proper permissions to the logs and output directories
 4. clone repository
 
 ## Installation / Usage
